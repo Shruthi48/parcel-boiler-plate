@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/shruthihariprakash/.nvm/versions/node/v12.18.3/bin/node /usr/local/Cellar/yarn/1.17.0/libexec/bin/yarn.js add @bable/babel-plugin-plugin-transform-runtime -D
+
+PATH: 
+  /Users/shruthihariprakash/.nvm/versions/node/v12.18.3/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/shruthihariprakash/personal-coding-projects/parcel-boiler-plate/node_modules/.bin:/Users/shruthihariprakash/.rvm/gems/ruby-2.2.5/bin:/Users/shruthihariprakash/.rvm/gems/ruby-2.2.5@global/bin:/Users/shruthihariprakash/.rvm/rubies/ruby-2.2.5/bin:/Users/shruthihariprakash/.nvm/versions/node/v12.18.3/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shruthihariprakash/Library/Python/2.7/bin/ansible:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/shruthihariprakash/.rvm/bin
+
+Yarn version: 
+  1.17.0
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@bable%2fbabel-plugin-plugin-transform-runtime: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.17.0/libexec/lib/cli.js:66823:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.17.0/libexec/lib/cli.js:140439:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.17.0/libexec/lib/cli.js:141411:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.17.0/libexec/lib/cli.js:141333:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "parcel-boiler",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel ./index.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "@babel/plugin-transform-runtime": "^7.9.0",
+      "@babel/runtime-corejs2": "^7.9.2",
+      "parcel-bundler": "^1.12.4",
+      "rimraf": "^3.0.2",
+      "sass": "^1.26.3"
+    },
+    "dependencies": {
+      "axios": "^0.19.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
