@@ -1,12 +1,21 @@
-$blue-1 : #090cfc;
-
-h1 {
-    color: $blue-1;
-}
+$purple-1 : #44318D;
+$purple-2: #E98074;
+$gray-1: #A4B3B6;
+$black-1: #2A1B3D;
+$pink: #D83F87;
+$white: #fff;
+$black: #000;
 
 body {
-    background: darksalmon;
-  }
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
+  background: darken($purple-1, 10%);
+}
+
+h1 {
+    color: $gray-1;
+}
+
   
   .fill {
     background-image: url('https://source.unsplash.com/random/150x150');
