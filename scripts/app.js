@@ -5,7 +5,9 @@ import '../styles/app.scss';
 
 const init = async () => {
     const template = document.createElement('Template');
-    template.innerHTML = `<header> <h1> This is my setup </h1> <div> ${await Users()}</div></header> <div class="empty">
+    template.innerHTML = `<header> <h1> This is my setup </h1> <div> ${await Users()}</div></header> 
+    <button class="btn"><i class="fa fa-home"></i></button>
+    <div class="empty">
     <div class="fill" draggable="true">
        <div> 
           My Todo List
